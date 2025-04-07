@@ -1,13 +1,3 @@
-
----
-
-## 2. Archivos de la API de Autenticación (backend)
-
-Aquí se presenta una API sencilla usando Node.js, Express y CORS. Esta API validará la autenticación de tres usuarios registrados.
-
-### **index.js**
-
-```js
 const express = require('express');
 const cors = require('cors');
 const usuarios = require('./usuarios.json');
